@@ -47,12 +47,12 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p><p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
+    <!-- {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
@@ -78,6 +78,45 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% endif %} -->
+
+    {% comment %}
+      1. Initialize an empty array for links.
+      2. Conditionally add links to the array.
+      3. Generate the final output block only if a citation or any link exists.
+    {% endcomment %}
+
+    {% assign links = "" | split: ',' %}
+
+    {% if post.doi %}
+      {% assign links = links | push: '<a href="' | append: post.doi | append: '">DOI</a>' %}
+    {% endif %}
+    console.log(post.doi);
+
+    {% if post.paperurl %}
+      {% assign links = links | push: '<a href="' | append: post.paperurl | append: '">Download Paper bluble</a>' %}
+    {% endif %}
+
+    {% if post.slidesurl %}
+      {% assign links = links | push: '<a href="' | append: post.slidesurl | append: '">Download Slides</a>' %}
+    {% endif %}
+
+    {% if post.bibtexurl %}
+      {% assign links = links | push: '<a href="' | append: post.bibtexurl | append: '">Download Bibtex OLAAAAAAA</a>' %}
+    {% endif %}
+
+    {% if post.citation or links.size > 0 %}
+      <p>
+        {% if post.citation %}
+          Recommended citation: {{ post.citation }}
+        {% endif %}
+
+        {% if post.citation and links.size > 0 %}
+          <br />
+        {% endif %}
+
+        {{ links | join: ' | ' }}
+      </p>
     {% endif %}
 
   </article>

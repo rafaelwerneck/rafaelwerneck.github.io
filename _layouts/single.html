@@ -44,7 +44,7 @@ layout: default
         </header>
       {% endunless %}
 
-      <section class="page__content" itemprop="text">
+      <!-- <section class="page__content" itemprop="text">
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
@@ -74,6 +74,54 @@ layout: default
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section> -->
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+
+        {% assign links = "" %}
+        {% capture citation_html %}
+          {% if page.citation %}
+            Recommended citation: {{ page.citation }}
+          {% endif %}
+        {% endcapture %}
+
+        {% if page.doi %}
+          {% assign links = links | append: '<a href=" | append: page.doi | append: '">DOI</a>' %}
+        {% endif %}
+
+        {% if page.paperurl %}
+          {% if links != "" %}
+            {% assign links = links | append: ' | ' %}
+          {% endif %}
+          {% assign links = links | append: '<a href="' | append: page.paperurl | append: '">Download Paper teste</a>' %}
+        {% endif %}
+
+        {% if page.slidesurl %}
+          {% if links != "" %}
+            {% assign links = links | append: ' | ' %}
+          {% endif %}
+          {% assign links = links | append: '<a href="' | append: page.slidesurl | append: '">Download Slides</a>' %}
+        {% endif %}
+
+        {% if page.bibtexurl %}
+          {% if links != "" %}
+            {% assign links = links | append: ' | ' %}
+          {% endif %}
+          {% assign links = links | append: '<a href="' | append: page.bibtexurl | append: '">Download Bibtex</a>' %}
+        {% endif %}
+
+        {% if citation_html != "" or links != "" %}
+          <p style="font-size: smaller">
+            {{ citation_html | strip }}
+            {% if citation_html != "" and links != "" %}<br />{% endif %}
+            {{ links }}
+          </p>
+        {% endif %}
+
+        {% if page.link %}
+          <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+        {% endif %}
       </section>
 
       <footer class="page__meta">

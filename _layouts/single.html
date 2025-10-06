@@ -87,7 +87,7 @@ layout: default
         {% endcapture %}
 
         {% if page.doi %}
-          {% assign links = links | append: '<a href=" | append: page.doi | append: '">DOI</a>' %}
+          {% assign links = links | append: '<a href="' | append: page.doi | append: '">DOI</a>' %}
         {% endif %}
 
         {% if page.paperurl %}

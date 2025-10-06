@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2018-02-01-Graph-based-bag-of-words-for-classification
 excerpt: 'This paper introduces the Bag of Graphs (BoG), a Bag-of-Words model that encodes in graphs the local structures of a digital object. Two BoG-based methods, Bag of Singleton Graphs (BoSG) and Bag of Visual Graphs (BoVG), are defined and evaluated for graph and image classification.'
-date: 2018
+date: 2018-02-01
 venue: 'Pattern Recognition'
 doi: 'https://doi.org/10.1016/j.patcog.2017.09.018'
 paperurl: 'https://doi.org/10.1016/j.patcog.2017.09.018'

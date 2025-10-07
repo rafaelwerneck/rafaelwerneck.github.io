@@ -23,7 +23,7 @@ repository               : "rafaelwerneck/rafaelwerneck.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.jpg"
   name             : "Rafael de Oliveira Werneck"
   pronouns         : "he/him"  
   bio              : "Ph.D. researcher in Computer Science with extensive experience in machine learning, forecasting, and graph-based methods."

@@ -21,7 +21,6 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
-        console.log(category[1].title);
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}

@@ -1,0 +1,15 @@
+---
+title: "Detecção de anomalias em dados de produção usando técnicas de aprendizado de máquina"
+collection: publications
+category: conferences
+permalink: /publication/2022-09-26-Deteccao-de-anomalias-em-dados-de-producao-usando-tecnicas-de-aprendizado-de-maquina
+excerpt: 'Oil production data may present anomalous behavior that does not reflect the actual reservoir dynamics. Some causes are human interventions, abrupt increase of water, severe slugging, flow instability, amongst others. This work describes the use of two unsupervised anomaly detection techniques (DBSCAN and GMM) and one supervised strategy based on recurrent neural networks underpinned by machine learning to discover observations that do not behave as expected.'
+date: 2022-09-26
+venue: 'Rio Oil & Gas 2022: Sessões Técnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF)'
+doi: 'https://doi.org/10.48072/2525-7579.rog.2022.298'
+paperurl: 'https://doi.org/10.48072/2525-7579.rog.2022.298' #TODO: Chage to local file
+bibtexurl: '/files/sorianovargas2022deteccao.bib'
+citation: 'Aurea Rossy Soriano Vargas, Rafael de Oliveira Werneck, Maiara Moreira Gonçalves, Eduardo dos Santos Pereira, Leopoldo André Dutra Lusquino Filho, Soroor Salavati, M. Manzur Hossain, Alexandre Mello Ferreira, Alessandra Davolio Gomes, Denis José Schiozer, and Anderson de Rezende Rocha. Detecção de anomalias em dados de produção usando técnicas de aprendizado de máquina. In IBP, editor, Rio Oil & Gas 2022: Sessões Técnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF), number 298, Rio de Janeiro | Brasil, September 2022.'
+---
+
+Oil production data may present anomalous behavior that does not reflect the actual reservoir dynamics. Some causes are human interventions, abrupt increase of water, severe slugging, flow instability, amongst others. The data relating to these anomalous events needs to be identified and removed from the dataset due to their potential to change the correlation of the series and influence forecasting and classification results. This work describes the use of two unsupervised anomaly detection techniques (DBSCAN and GMM) and one supervised strategy based on recurrent neural networks underpinned by machine learning to discover observations that do not behave as expected. Our experiments were performed using two datasets: UNISIM-II-M-CO (synthetic benchmark model) and 3W (a real Brazilian field dataset), and we evaluated them considering two metrics: recall and balanced accuracy. These strategies show promising results, with over 93% of recall and 86% of accuracy for UNISIM-II-M-CO and over 99% of recall and 80% of accuracy for the 3W dataset with both strategies. Such results help us conclude that the methods are accurate, precise, and robust to identify different types of data anomalies before performing machine-learning techniques using the data.

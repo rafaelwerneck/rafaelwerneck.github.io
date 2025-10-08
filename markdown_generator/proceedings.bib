@@ -1,0 +1,108 @@
+@inproceedings{nogueira2017data,
+  title={{Data-Driven Flood Detection using Neural Networks}},
+  author={Nogueira, K. and Fadel, S. G. and Dourado, {\'I}. C. and Werneck, R. de O. and Mu{\~n}oz, J. A.V. and Penatti, O. A.B. and Calumby, R. T. and Li, L. T. and dos Santos, J. A. and Torres, R. da S.},
+  booktitle={Working Notes Proc. MediaEval Workshop},
+  year={2017}
+}
+
+@inproceedings{werneck2018learning,
+  author    = {Rafael Werneck and
+               R. Raveaux and
+               S. Tabbone and
+               R. da S. Torres},
+  editor    = {Bai, Xiao and
+               Hancock, Edwin R. and
+               Ho, Tin Kam and
+               Wilson, Richard C. and
+               Biggio, Battista and
+               Robles-Kelly, Antonio},
+  title     = {{Learning Cost Functions for Graph Matching}},
+  booktitle = {Structural, Syntactic, and Statistical Pattern Recognition},
+  pages     = {345--354},
+  year      = {2018},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  doi       = {10.1007/978-3-319-97785-0_33}
+}
+
+@inproceedings{werneck2018graphbased,
+  author    = {Werneck, R. and
+               {\'{I}}. C. Dourado and
+               S. G. Fadel and
+               S. Tabbone and
+               R. da S. Torres},
+  title     = {{Graph-Based Early-Fusion for Flood Detection}},
+  booktitle = {{IEEE} International Conference on Image Processing},
+  pages     = {1048--1052},
+  year      = {2018},
+  doi       = {10.1109/ICIP.2018.8451011},
+  timestamp = {Tue, 11 Sep 2018 16:51:44 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icip/WerneckDFTT18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ferreira2023hybrid,
+    author = {Ferreira, Vitor Hugo de Sousa and Castro, Manuel and Moura, Renato and Werneck, Rafael de Oliveira and Zampieri, Marcelo Ferreira and Gonçalves, Maiara Moreira and Linares, Oscar and Salavati, Soroor and Lusquino Filho, Leopoldo Andre Dutra and Ribeiro Mendes Júnior, Pedro and Mello Ferreira, Alexandre and Davolio, Alessandra and Schiozer, Denis Jose and Rocha, Anderson},
+    title = {A New Hybrid Data-Driven and Model-Based Methodology for Improved Short-Term Production Forecasting},
+    volume = {Offshore Technology Conference},
+    series = {OTC Offshore Technology Conference},
+    pages = {D041S049R007},
+    year = {2023},
+    month = {05},
+    abstract = {Model-based (MB) solutions are widely used in reservoir management and production forecasting throughout the life-cycle of oil fields. However, such approaches are not often used for short-term (up to six months) forecasting due to the immediate-term productivity missmatch and the large number of models required to honor uncertainties. Recently developed data-driven (DD) techniques have shown promising performance in immediate term forecasting (from days to months) while losing performance as the timeframe increases. This work, proposes and investigates a hybrid methodology (HM) that combines MB and DD techniques focusing on improving the short-term production forecast. A common practice in reservoir management to understand the impact of uncertainties, is to build an ensemble of simulation model scenarios to assess the impact of these uncertainties on production forecasts. The proposed HM relies on the DD-assisted selection of a subset of models from the set of assimilated (posterior) models. Specifically, the pool of MB models is ranked based on their similarities to the DD production forecasts in the immediate term (e.g., one month), followed by the selection of the top models. The selected MB models are then used in the short-term forecasting task. In a case study for an offshore pre-salt reservoir benchmark, the proposed HM is compared to two baselines: one purely DD and another fully MB. The case study considered two forecasting conditions: human intervention-free with restrictions (HIF-R), with no intervention in the controls except to follow physical restrictions, and with human interventions (WHI), following optimization rules. Our results showed that the HM significantly outperformed the MB baseline, regardless of forecasting condition (HIF-R and WHI) or variables (pressure and oil/water/gas rates) for all evaluation metrics (time series similarity and rank-based) and top-selected models tested. The hybrid approach also helped improve the well productivity uncertainty that emerged from the data assimilation. Such results indicate that the performance of MB short-term forecasts can be enhanced when assisted by DD techniques, such as in our proposed HM. Comparing these two approaches, the best forecasts were split between the HM and the DD baseline. In the partially idealized HIF-R conditions, the DD baseline was best when the forecast trend was steady. However, the HM was superior for the more complex production behaviors. In the more realistic WHI conditions, the HM outperformed the DD baseline in almost every aspect tested given the inability of the chosen DD technique to leverage known interventions. This work is the first effort to improve MB short-term production forecasts, using production data, with a machine learning technique through a proposed HM. The proposed DD-assisted selection of models proved successful in a benchmark case study, which means it is promising for application in other fields and for further development.},
+    doi = {10.4043/32167-MS},
+    url = {https://doi.org/10.4043/32167-MS},
+    eprint = {https://onepetro.org/OTCONF/proceedings-pdf/23OTC/23OTC/D041S049R007/3100511/otc-32167-ms.pdf},
+}
+
+@inproceedings{werneck2024watch,
+    author = {Werneck, R. and Lusquino Filho, L. A. and Lustosa, A. and Loomba, A. and Gonçalves, M. M. and Esmin, A. and Salavati, S. and Morais, E. and Mendes Junior, P. Ribeiro and Zampieri, M. and Amaral, M. and Linares, O. C. and Castro, M. and Moura, R. and Schiozer, D. J. and Ferreira, A. Mello and Davolio, A. and Rocha, A.},
+    title = {Watch the Reservoir! Improving Short-Term Production Forecast Through Transformers},
+    volume = {SPE Europe Energy Conference and Exhibition},
+    series = {SPE Europec featured at EAGE Conference and Exhibition},
+    pages = {D031S016R002},
+    year = {2024},
+    month = {06},
+    abstract = {Data-driven methodologies have been used in reservoir management and production forecasting, particularly demonstrating remarkable efficacy in short-term oil production forecasts. However, there is space to improve its prediction, especially in tackling the complexities of challenging reservoirs, such as the heterogeneous carbonate reservoirs from Brazilian Pre-salt fields. Methods for oil production forecasting in the petroleum literature generally consider linear correlations or recurrent neural networks (RNNs). In this paper, we propose a new strategy to improve short-term forecasting for oil production through attention mechanisms that boost state-of-the-art methods. Traditional data-driven techniques generally do not consider static data or planned activities. However, we address this critical gap by leveraging the Temporal Fusion Transformer (TFT) to integrate such information into our short-term forecasting. Transformers, the architectural inspiration behind ChatGPT, employ attention mechanisms to establish relationships between different time series data points, assigning weights to these connections. We jointly explore oil, gas, and water production, pressure, and the ratios between them. This method includes static data (e.g., geographical coordinates) as well as known side reservoir information. Such side information can be, for instance, another predicted future production or planned well shut-ins. We also investigate which side information improves the obtained forecasting. This paper presents two main findings. First, it shows how using certain side information can improve the overall predictive capability of a model. For example, using predicted gas production as side information can significantly improve the oil production forecast. This is logical and in line with expectations, as there is an intimate connection between oil and gas production. In the second application of TFT, we considered well closures as the side information. We used an anomaly detection tool to identify well closures in the history period and converted it to usable side information for the TFT model. The distribution of these well closures is used as a guide to predict our target oil production. As we considered the distribution of well closures as side information, we framed our results in terms of cumulative oil production rather than daily forecast rates. The results of this work show that the cumulative production gets very close to the ground-truth data, better than linear and proposed baselines. In summary, the second key result shows and underscores the significance of incorporating side information within our TFT approach.},
+    doi = {10.2118/220059-MS},
+    url = {https://doi.org/10.2118/220059-MS},
+    eprint = {https://onepetro.org/SPEEURO/proceedings-pdf/24EURO/24EURO/D031S016R002/3654742/spe-220059-ms.pdf},
+}
+
+@inproceedings{goncalves2024enhancing,
+    author = {Gonçalves, M. M. and Werneck, R. and Castro, M. and Amaral, M. and Mendes, P. Ribeiro and Filho, L. A. Lusquino and Esmin, A. and Moura, R. and Morais, E. and Linares, O. C. and Lustosa, A. and Salavati, S. and Schiozer, D. J. and Ferreira, A. Mello and Rocha, A. and Davolio, A.},
+    title = {Enhancing Short-Term Production Forecast in Oil Fields: Integrating Data-Driven and Model-Based Approaches to Reduce Uncertainty},
+    volume = {SPE Europe Energy Conference and Exhibition},
+    series = {SPE Europec featured at EAGE Conference and Exhibition},
+    pages = {D031S019R002},
+    year = {2024},
+    month = {06},
+    abstract = {Reservoir simulation models are usually applied to optimize oil field production across its life cycle but face challenges in short-term forecasting. Data-driven techniques (DD) show promise for short-term predictions but lack reliability over extended periods. This study introduces a Hybrid Methodology (HyM) combining the optimal features of model-based (MB) with DD approaches to select the best simulation models to make short-term decisions, effectively reducing uncertainty in short-term production forecasts for a real field. Using DD techniques, such as Transformers, we forecast 150 days of cumulative water, oil, and gas production for each well of a real field based only on historical production. We also run production forecasts using 200 history-matched simulation models for this field. In our HyM methodology, we propose to select the best simulation models according to their fit to the DD forecasts, assuming the DD forecasts to be more representative of the short-term behavior of the real field. We compare our HyM to a conventional MB model selection based on history-matching quality, referred to as MB. The proposed approach was applied to a heavy oil field from the Campos basin (Brazil), a deep-water turbiditic reservoir. We separated five months of real history data as the ground truth to rank the selected models through the forecast error and rank similarity. With this evaluation, we measured how accurate the forecast of the chosen simulation models was and the efficacy of each approach (HyM and MB) in ranking the simulation models. Our results showed that the subset of models selected using HyM successfully outperformed those chosen by the MB approach since they are better fitted for short-term forecasts for oil, water, and gas rates. The proposed HyM method yields a 75\% error reduction, considering the rank similarity, with respect to the MB approach. Consequently, we conclude that better results may be achieved by using a DD forecast as a reference to reduce the uncertainty of oil, water, and gas rates (HyM approach) instead of using the actual history (MB approach). The new methodology showed promising results by selecting models with attenuated errors for oil/water rates during the history-forecast transition, complementing the data assimilation procedure. This study presents an innovative methodology merging the strengths of machine learning (ML) and simulation models to enhance the reliability of short-term production forecasts. The proposed approach is versatile, not tied to any specific ML algorithm, and effectively minimizes uncertainties, particularly in complex fields with numerous wells.},
+    doi = {10.2118/220095-MS},
+    url = {https://doi.org/10.2118/220095-MS},
+    eprint = {https://onepetro.org/SPEEURO/proceedings-pdf/24EURO/24EURO/D031S019R002/3655608/spe-220095-ms.pdf},
+}
+
+@inproceedings{Vargas2022detecção,
+  author    = {Soriano Vargas, Aurea Rossy and de Oliveira Werneck, Rafael and Gon{\c{c}}alves, Maiara Moreira and Pereira, Eduardo dos Santos and Lusquino Filho, Leopoldo Andr{\'e} Dutra and Salavati, Soroor and Hossain, M. Manzur and Ferreira, Alexandre Mello and Davolio Gomes, Alessandra and Schiozer, Denis Jos{\'e} and Rocha, Anderson de Rezende},
+  title     = {Detec{\c{c}}{\~a}o de anomalias em dados de produ{\c{c}}{\~a}o usando t{\'e}cnicas de aprendizado de m{\'a}quina},
+  booktitle = {Rio Oil \& Gas 2022: Sess{\~o}es T{\'e}cnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF)},
+  year      = {2022},
+  editor    = {{IBP}},
+  number    = {298},
+  address   = {Rio de Janeiro | Brasil},
+  month     = sep,
+  note      = {Technical Paper - FUTURO DA INDÚSTRIA DE O\&G MT16 TRANSFORMAÇÃO DIGITAL, Cód. 43.927. APRESENTAÇÃO DIGITAL.},
+}
+
+@inproceedings{LusquinoFilho2022oilproduction,
+  author    = {Lusquino Filho, Leopoldo Andr{\'e} Dutra and de Oliveira Werneck, Rafael and Ribeiro Mendes J{\'u}nior, Pedro and Castro, Manuel and Pereira, Eduardo dos Santos and Moura, Renato and de Sousa Ferreira, V{\'i}tor Hugo and Ferreira, Alexandre Mello and Davolio Gomes, Alessandra and Rocha, Anderson de Rezende},
+  title     = {Oil production and pressure multimodal forecasting integrating high-frequency production data},
+  booktitle = {Rio Oil \& Gas 2022: Sess{\~o}es T{\'e}cnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF)},
+  year      = {2022},
+  editor    = {{IBP}},
+  number    = {308},
+  address   = {Rio de Janeiro | Brasil},
+  month     = sep,
+  note      = {Technical Paper - FUTURO DA INDÚSTRIA DE O\&G MT28 TRANSFORMAÇÃO DIGITAL, Cód. 43.937. APRESENTAÇÃO DIGITAL.},
+}

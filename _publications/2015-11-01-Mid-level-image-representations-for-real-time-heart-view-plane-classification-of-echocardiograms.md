@@ -1,5 +1,5 @@
 ---
-title: "Mid-level image representations for real-time heart view plane classification of echocardiograms"
+title: 'Mid-level image representations for real-time heart view plane classification of echocardiograms'
 collection: publications
 category: manuscripts
 permalink: /publication/2015-11-01-Mid-level-image-representations-for-real-time-heart-view-plane-classification-of-echocardiograms

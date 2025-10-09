@@ -3,7 +3,7 @@ title: "Data-Driven Flood Detection using Neural Networks"
 collection: publications
 category: conferences
 permalink: /publication/2017-09-13-Data-Driven-Flood-Detection-using-Neural-Networks
-excerpt: 'For both disaster image retrieval and flood-detection in satellite images, we employ neural networks for end-to-end learning.'
+excerpt: 'This paper describes the approaches used by our team (MultiBrasil) for the Multimedia Satellite Task at MediaEval 2017. For both disaster image retrieval and flood-detection in satellite images, we employ neural networks for end-to-end learning.'
 date: 2017-09-13
 venue: 'Working Notes Proc. MediaEval Workshop'
 paperurl: 'https://doi.org/10.1016/j.patcog.2017.09.018' #TODO: Chage to local file

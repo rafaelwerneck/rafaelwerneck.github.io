@@ -7,7 +7,7 @@ excerpt: 'This paper introduces the Bag of Graphs (BoG), a Bag-of-Words model th
 date: 2018-02-01
 venue: 'Pattern Recognition'
 doi: 'https://doi.org/10.1016/j.patcog.2017.09.018'
-paperurl: 'https://doi.org/10.1016/j.patcog.2017.09.018' #TODO: Chage to local file
+paperurl: '/files/silva2018graphbased.pdf'
 bibtexurl: '/files/silva2018graphbased.bib'
 citation: 'F. B. Silva, R. de O. Werneck, S. Goldenstein, S. Tabbone, and R. da S. Torres. Graph-based bag-of-words for classification. Pattern Recognition, 74(Supplement C):266 – 285, February 2018.'
 ---

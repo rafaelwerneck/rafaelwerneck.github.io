@@ -7,7 +7,7 @@ excerpt: 'A pet that goes missing is among many people’s worst fears: a moment
 date: 2017-01-01
 venue: 'Multimedia Tools and Applications'
 doi: 'http://dx.doi.org/10.1007/s11042-016-3824-1'
-paperurl: 'http://dx.doi.org/10.1007/s11042-016-3824-1' # TODO: Change to local file
+paperurl: '/files/moreira2017where.pdf'
 bibtexurl: '/files/moreira2017where.bib'
 citation: 'Thierry Pinheiro Moreira, Mauricio Lisboa Perez, Rafael de Oliveira Werneck, and Eduardo Valle. Where is my puppy? retrieving lost dogs by facial features. Multimedia Tools and Applications, 76(14):15325–15340, 2017.'
 ---

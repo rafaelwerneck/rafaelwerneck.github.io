@@ -7,7 +7,7 @@ excerpt: 'In this work, we propose Kuaa, a workflow-based framework that can be 
 date: 2018-01-01
 venue: 'Future Generation Computer Systems'
 doi: 'https://doi.org/10.1016/j.future.2017.06.013'
-paperurl: 'https://doi.org/10.1016/j.future.2017.06.013' # TODO: Change to local file
+paperurl: '/files/werneck2018kuaa.pdf'
 bibtexurl: '/files/werneck2018kuaa.bib'
 citation: 'Rafael Werneck, Waldir Rodrigues de Almeida, Bernardo Vecchia Stein, Daniel Vatanabe Pazinato, Pedro Ribeiro Mendes Júnior, Otávio Augusto Bizetto Penatti, Anderson Rocha, and Ricardo da Silva Torres. Kuaa: A unified framework for design, deployment, execution, and recommendation of machine learning experiments. Future Generation Computer Systems, 2018.'
 ---

@@ -7,7 +7,7 @@ excerpt: 'In several pattern recognition problems, effective graph matching is o
 date: 2019-12-01
 venue: 'Pattern Recognition Letters'
 doi: 'https://doi.org/10.1016/j.patrec.2019.08.010'
-paperurl: 'https://doi.org/10.1016/j.patrec.2019.08.010' #TODO: Chage to local file
+paperurl: '/files/werneck2019learning.pdf'
 bibtexurl: '/files/werneck2019learning.bib'
 citation: 'Rafael Werneck, Romain Raveaux, Salvatore Tabbone, and Ricardo da Silva Torres. Learning cost function for graph classification with open-set methods. Pattern Recognition Letters, 128:8 – 15, 2019.'
 ---

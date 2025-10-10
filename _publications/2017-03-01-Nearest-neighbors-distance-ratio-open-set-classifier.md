@@ -7,7 +7,7 @@ excerpt: 'In this paper, we propose a novel multiclass classifier for the open-s
 date: 2017-03-01
 venue: 'Machine Learning'
 doi: 'https://doi.org/10.1007/s10994-016-5610-8'
-paperurl: 'https://doi.org/10.1007/s10994-016-5610-8' # TODO: Change to local file
+paperurl: '/files/mendesjunior2017nearest.pdf'
 bibtexurl: '/files/mendesjunior2017nearest.bib'
 citation: 'P. R. Mendes Júnior, R. M. de Souza, R. de O. Werneck, B. V. Stein, D. V. Pazinato, W. R. de Almeida, O. A. B. Penatti, R. da S. Torres, and A. Rocha. Nearest neighbors distance ratio open-set classifier. Machine Learning, 106(3):359–386, 3 2017.'
 ---

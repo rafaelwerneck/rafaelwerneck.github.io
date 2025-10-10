@@ -7,7 +7,7 @@ excerpt: 'Production forecasting plays an important role in oil and gas producti
 date: 2022-03-01
 venue: 'Journal of Petroleum Science and Engineering'
 doi: 'https://doi.org/10.1016/j.petrol.2021.109937'
-paperurl: 'https://doi.org/10.1016/j.petrol.2021.109937' #TODO: Chage to local file
+paperurl: '/files/werneck2022datadriven.pdf'
 bibtexurl: '/files/werneck2022datadriven.bib'
 citation: 'Rafael de Oliveira Werneck, Raphael Prates, Renato Moura, Maiara Moreira Gonçalves, Manuel Castro, Aurea Soriano-Vargas, Pedro Ribeiro Mendes Júnior, M. Manzur Hossain, Marcelo Ferreira Zampieri, Alexandre Ferreira, Alessandra Davólio, Denis Schiozer, and Anderson Rocha. Data-driven deep-learning forecasting for oil production and pressure. Journal of Petroleum Science and Engineering, 210:109937, 2022.'
 ---

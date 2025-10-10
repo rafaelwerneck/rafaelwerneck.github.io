@@ -7,7 +7,7 @@ excerpt: 'Flooding is one of the most harmful natural disasters, as it poses dan
 date: 2018-10-01
 venue: 'IEEE International Conference on Image Processing'
 doi: 'https://doi.org/10.1109/ICIP.2018.8451011'
-paperurl: 'https://doi.org/10.1109/ICIP.2018.8451011' #TODO: Chage to local file
+paperurl: '/files/werneck2018graphbased.pdf'
 bibtexurl: '/files/werneck2018graphbased.bib'
 citation: 'R. Werneck, Í. C. Dourado, S. G. Fadel, S. Tabbone, and R. da S. Torres. Graph-Based Early-Fusion for Flood Detection. In IEEE International Conference on Image Processing, pages 1048–1052, 2018.'
 ---

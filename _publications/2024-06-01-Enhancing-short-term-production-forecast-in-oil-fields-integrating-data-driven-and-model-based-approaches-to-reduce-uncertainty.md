@@ -7,7 +7,7 @@ excerpt: 'Reservoir simulation models are usually applied to optimize oil field 
 date: 2024-06-01
 venue: 'SPE Europe Energy Conference and Exhibition'
 doi: 'https://doi.org/10.2118/220095-MS'
-paperurl: 'https://doi.org/10.2118/220095-MS' #TODO: Chage to local file
+paperurl: '/files/goncalves2024enhancing.pdf'
 bibtexurl: '/files/goncalves2024enhancing.bib'
 citation: 'M. M. Gonçalves, R. Werneck, M. Castro, M. Amaral, P. Ribeiro Mendes, L. A. Lusquino Filho, A. Esmin, R. Moura, E. Morais, O. C. Linares, A. Lustosa, S. Salavati, D. J. Schiozer, A. Mello Ferreira, A. Rocha, and A. Davolio. Enhancing short-term production forecast in oil fields: Integrating data-driven and model-based approaches to reduce uncertainty. volume SPE Europe Energy Conference and Exhibition of SPE Europec featured at EAGE Conference and Exhibition, page D031S019R002, 06 2024.'
 ---

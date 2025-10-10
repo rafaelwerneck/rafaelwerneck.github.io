@@ -63,7 +63,7 @@ Skills & Interests
 * **Technical:** Python, C, TensorFlow, PyTorch, n8n, QGIS
 * **Language:** Portuguese (native), English (full professional proficiency), French (elementary)
 * **Laboratory:** Git, Docker
-* **Interests:** image processing, supervised learning, content-based image retrieval, regression, time series, , artificial, intelligence, graphs, deep learning, forecasting, feature engineering, pattern recognition, machine learning, text classification, agents, prompt engineering
+* **Interests:** image processing, supervised learning, feature engineering, content-based image retrieval, graphs, pattern recognition, regression, time series, deep learning, machine learning, artificial intelligence, forecasting, text classification, agents, prompt engineering
 
 Publications
 ======

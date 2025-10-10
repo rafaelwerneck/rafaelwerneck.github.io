@@ -7,7 +7,7 @@ excerpt: 'Oil production data may present anomalous behavior that does not refle
 date: 2022-09-26
 venue: 'Rio Oil & Gas 2022: Sessões Técnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF)'
 doi: 'https://doi.org/10.48072/2525-7579.rog.2022.298'
-paperurl: 'https://doi.org/10.48072/2525-7579.rog.2022.298' #TODO: Chage to local file
+paperurl: '/files/sorianovargas2022deteccao.pdf'
 bibtexurl: '/files/sorianovargas2022deteccao.bib'
 citation: 'Aurea Rossy Soriano Vargas, Rafael de Oliveira Werneck, Maiara Moreira Gonçalves, Eduardo dos Santos Pereira, Leopoldo André Dutra Lusquino Filho, Soroor Salavati, M. Manzur Hossain, Alexandre Mello Ferreira, Alessandra Davolio Gomes, Denis José Schiozer, and Anderson de Rezende Rocha. Detecção de anomalias em dados de produção usando técnicas de aprendizado de máquina. In IBP, editor, Rio Oil & Gas 2022: Sessões Técnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF), number 298, Rio de Janeiro | Brasil, September 2022.'
 ---

@@ -7,7 +7,7 @@ excerpt: 'Model-based (MB) solutions are widely used in reservoir management and
 date: 2023-05-01
 venue: 'Offshore Technology Conference'
 doi: 'https://doi.org/10.4043/32167-MS'
-paperurl: 'https://doi.org/10.4043/32167-MS' #TODO: Chage to local file
+paperurl: '/files/ferreira2023hybrid.pdf'
 bibtexurl: '/files/ferreira2023hybrid.bib'
 citation: 'Vitor Hugo de Sousa Ferreira, Manuel Castro, Renato Moura, Rafael de Oliveira Werneck, Marcelo Ferreira Zampieri, Maiara Moreira Gonçalves, Oscar Linares, Soroor Salavati, Leopoldo Andre Dutra Lusquino Filho, Pedro Ribeiro Mendes Júnior, Alexandre Mello Ferreira, Alessandra Davolio, Denis José Schiozer, and Anderson Rocha. A new hybrid data-driven and model-based methodology for improved short-term production forecasting. volume Offshore Technology Conference of OTC Offshore Technology Conference, page D041S049R007, 05 2023.'
 ---

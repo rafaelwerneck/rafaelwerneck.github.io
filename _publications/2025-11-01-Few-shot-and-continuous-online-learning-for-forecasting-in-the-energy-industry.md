@@ -7,7 +7,7 @@ excerpt: 'Forecasting in the energy sector is critical for planning and efficien
 date: 2025-11-01
 venue: 'Energy'
 doi: 'https://doi.org/10.1016/j.energy.2025.138470'
-paperurl: 'https://doi.org/10.1016/j.energy.2025.138470' #TODO: Chage to local file
+paperurl: '/files/cirac2025fewshot.pdf'
 bibtexurl: '/files/cirac2025fewshot.bib'
 citation: 'Gabriel Cirac, Vinicius Eduardo Botechia, Denis José Schiozer, Víctor Martínez, Rafael de Oliveira Werneck, and Anderson Rocha. Few-shot and continuous online learning for forecasting in the energy industry. Energy, 336:138470, 2025.'
 ---

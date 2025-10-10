@@ -7,7 +7,7 @@ excerpt: 'Inferring causal relationships from observational data is a key challe
 date: 2023-07-14
 venue: 'Scientific Reports'
 doi: 'https://doi.org/10.1038/s41598-023-37929-w'
-paperurl: 'https://doi.org/10.1038/s41598-023-37929-w' #TODO: Chage to local file
+paperurl: '/files/castro2023causal.pdf'
 bibtexurl: '/files/castro2023causal.bib'
 citation: 'Manuel Castro, Pedro Ribeiro Mendes Júnior, Aurea Soriano-Vargas, Rafael de Oliveira Werneck, Maiara Moreira Gonçalves, Leopoldo Lusquino Filho, Renato Moura, Marcelo Zampieri, Oscar Linares, Vitor Ferreira, Alexandre Ferreira, Alessandra Davólio, Denis Schiozer, and Anderson Rocha. Time series causal relationships discovery through feature importance and ensemble models. Scientific Reports, 13(1):11402, 2023.'
 ---

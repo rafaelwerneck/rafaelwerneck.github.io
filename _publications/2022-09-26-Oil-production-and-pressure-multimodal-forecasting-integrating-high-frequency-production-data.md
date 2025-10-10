@@ -7,7 +7,7 @@ excerpt: 'Production forecasts (oil, gas, water) are important for the managemen
 date: 2022-09-26
 venue: 'Rio Oil & Gas 2022: Sessões Técnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF)'
 doi: 'https://doi.org/10.48072/2525-7579.rog.2022.308'
-paperurl: 'https://doi.org/10.48072/2525-7579.rog.2022.308' #TODO: Chage to local file
+paperurl: '/files/lusquinofilho2022oilproduction.pdf'
 bibtexurl: '/files/lusquinofilho2022oilproduction.bib'
 citation: 'Leopoldo André Dutra Lusquino Filho, Rafael de Oliveira Werneck, Pedro Ribeiro Mendes Júnior, Manuel Castro, Eduardo dos Santos Pereira, Renato Moura, Vítor Hugo de Sousa Ferreira, Alexandre Mello Ferreira, Alessandra Davolio Gomes, and Anderson de Rezende Rocha. Oil production and pressure multimodal forecasting integrating high-frequency production data. In IBP, editor, Rio Oil & Gas 2022: Sessões Técnicas Digitais e Presenciais | Technical Sessions (Video Presentations + Technical Papers in PDF), number 308, Rio de Janeiro | Brasil, September 2022.'
 ---

@@ -7,7 +7,7 @@ excerpt: 'This study proposes a novel multimodal approach for mixed-frequency ti
 date: 2024-09-04
 venue: 'Neural Computing and Applications'
 doi: 'https://doi.org/10.1007/s00521-024-10305-z'
-paperurl: 'https://doi.org/10.1007/s00521-024-10305-z' #TODO: Chage to local file
+paperurl: '/files/lusquinofilho2024multimodal.pdf'
 bibtexurl: '/files/lusquinofilho2024multimodal.bib'
 citation: 'Leopoldo Lusquino Filho, Rafael de Oliveira Werneck, Manuel Castro, Pedro Ribeiro Mendes Júnior, Augusto Lustosa, Marcelo Zampieri, Oscar Linares, Renato Moura, Elayne Morais, Murilo Amaral, Soroor Salavati, Ashish Loomba, Ahmed Esmin, Maiara Gonçalves, Denis José Schiozer, Alexandre Ferreira, Alessandra Davólio, and Anderson Rocha. A multi-modal approach for mixed-frequency time series forecasting. Neural Computing and Applications, 36(34):21581–21605, 2024.'
 ---

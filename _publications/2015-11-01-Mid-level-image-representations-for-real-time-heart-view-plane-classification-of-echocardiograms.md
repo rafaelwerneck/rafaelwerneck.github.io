@@ -7,7 +7,7 @@ excerpt: 'In this paper, we explore mid-level image representations for real-tim
 date: 2015-11-01
 venue: 'Computers in Biology and Medicine'
 doi: 'http://dx.doi.org/10.1016/j.compbiomed.2015.08.004'
-paperurl: 'http://dx.doi.org/10.1016/j.compbiomed.2015.08.004' # TODO: Change to local file
+paperurl: '/files/penatti2015midlevel.pdf'
 bibtexurl: '/files/penatti2015midlevel.bib'
 citation: 'Otávio A.B. Penatti, Rafael de O. Werneck, Waldir R. de Almeida, Bernardo V. Stein, Daniel V. Pazinato, Pedro R. Mendes Júnior, Ricardo da S. Torres, and Anderson Rocha. Mid-level image representations for real-time heart view plane classification of echocardiograms. Computers in Biology and Medicine, 66:66 – 81, 2015.'
 ---

@@ -7,7 +7,7 @@ excerpt: 'Detecting anomalies in time series data of hydrocarbon reservoir produ
 date: 2021-11-01
 venue: 'Journal of Petroleum Science and Engineering'
 doi: 'https://doi.org/10.1016/j.petrol.2021.108988'
-paperurl: 'https://doi.org/10.1016/j.petrol.2021.108988' #TODO: Chage to local file
+paperurl: '/files/sorianovargas2021visual.pdf'
 bibtexurl: '/files/sorianovargas2021visual.bib'
 citation: 'Aurea Soriano-Vargas, Rafael Werneck, Renato Moura, Pedro Mendes Júnior, Raphael Prates, Manuel Castro, Maiara Gonçalves, Manzur Hossain, Marcelo Zampieri, Alexandre Ferreira, Alessandra Davólio, Bernd Hamann, Denis José Schiozer, and Anderson Rocha. A visual analytics approach to anomaly detection in hydrocarbon reservoir time series data. Journal of Petroleum Science and Engineering, 206:108988, 2021.'
 ---

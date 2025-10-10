@@ -7,7 +7,7 @@ excerpt: 'During the last decade, several approaches have been proposed to addre
 date: 2018-08-02
 venue: 'Structural, Syntactic, and Statistical Pattern Recognition'
 doi: 'https://doi.org/10.1007/978-3-319-97785-0_33'
-paperurl: 'https://doi.org/10.1007/978-3-319-97785-0_33' #TODO: Chage to local file
+paperurl: '/files/werneck2018learning.pdf'
 bibtexurl: '/files/werneck2018learning.bib'
 citation: 'Rafael Werneck, R. Raveaux, S. Tabbone, and R. da S. Torres. Learning Cost Functions for Graph Matching. In Xiao Bai, Edwin R. Hancock, Tin Kam Ho, Richard C. Wilson, Battista Biggio, and Antonio Robles-Kelly, editors, Structural, Syntactic, and Statistical Pattern Recognition, pages 345–354, Cham, 2018. Springer International Publishing.'
 ---

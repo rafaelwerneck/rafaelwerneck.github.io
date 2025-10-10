@@ -7,7 +7,7 @@ excerpt: 'Pixel-level tissue classification for ultrasound images, commonly appl
 date: 2016-01-01
 venue: 'IEEE Journal of Biomedical and Health Informatics'
 doi: 'http://dx.doi.org/10.1109/JBHI.2014.2386796'
-paperurl: 'http://dx.doi.org/10.1109/JBHI.2014.2386796' # TODO: Change to local file
+paperurl: '/files/pazinato2016pixellevel.pdf'
 bibtexurl: '/files/pazinato2016pixellevel.bib'
 citation: 'D. V. Pazinato, B. V. Stein, W. R. de Almeida, R. de O. Werneck, P. R. M. JÃžnior, O. A. B. Penatti, R. d. S. Torres, F. H. Menezes, and A. Rocha. Pixel-level tissue classification for ultrasound images. IEEE Journal of Biomedical and Health Informatics, 20(1):256–267, 1 2016.'
 ---

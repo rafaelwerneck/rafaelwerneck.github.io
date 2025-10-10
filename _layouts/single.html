@@ -90,11 +90,22 @@ layout: default
           {% assign links = links | append: '<a href="' | append: page.doi | append: '">DOI</a>' %}
         {% endif %}
 
-        {% if page.paperurl %}
-          {% if links != "" %}
-            {% assign links = links | append: ' | ' %}
+        {% comment %}
+          Only show the "Download Paper" link for publications older than 3 years.
+          This is to encourage readers to access recent publications through the publisher's site.
+        {% endcomment %}
+        {% assign y = site.time | date: "%-Y" | minus: 3 %}
+        {% assign m = site.time | date: "%-m" %}
+        {% assign d = site.time | date: "%-d" %}
+        {% assign threshold_date = y | append: m | append: d | plus: 0 %}
+        {% assign post_date = page.date | remove: '-' | plus: 0 %}
+        {% if page.date and post_date <= threshold_date %}
+          {% if page.paperurl %}
+            {% if links != "" %}
+              {% assign links = links | append: ' | ' %}
+            {% endif %}
+            {% assign links = links | append: '<a href="' | append: page.paperurl | append: '">Download Paper</a>' %}
           {% endif %}
-          {% assign links = links | append: '<a href="' | append: page.paperurl | append: '">Download Paper</a>' %}
         {% endif %}
 
         {% if page.slidesurl %}

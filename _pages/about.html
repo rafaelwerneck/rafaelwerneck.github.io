@@ -1,0 +1,20 @@
+---
+permalink: /
+title: "About"
+author_profile: true
+layout: archive
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+Ph.D. researcher in Computer Science with extensive experience in machine learning, forecasting, and graph-based methods. Led research projects in academic and applied settings, published multiple papers and patents, and contributed to advancements in time series analysis and AI. Skilled in Python and deep learning frameworks, with a strong record of collaboration, mentoring, and delivering innovative solutions.
+
+{% include base_path %}
+
+<h2>5 Most Recent Publications</h2><hr />
+<!-- Show the top 5 most recent publications -->
+{% assign my_sorted_list = site.publications | reverse %}
+{% for post in my_sorted_list limit: 5 %}
+  {% include archive-single.html %}
+{% endfor %}

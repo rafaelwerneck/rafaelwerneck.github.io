@@ -1,13 +1,13 @@
 ---
 layout: archive
-permalink: /year-archive/en/
-title: "Blog posts"
+permalink: /year-archive/pt-br/
+title: "Postagens do blog"
 author_profile: true
 redirect_from:
-  - /wordpress/blog-posts/
+  - /wordpress/postagens-blog/
 ---
 
-<div class="wordwrap">You can also find my blog posts in Brazilian Portuguese on <a href="/year-archive/pt-br/">this link</a>.</div>
+<div class="wordwrap">Você também pode encontrar minhas postagens em inglês <a href="/year-archive/en/">neste link</a>.</div>
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
@@ -18,7 +18,7 @@ redirect_from:
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% if lang == 'en' %}
+  {% if lang == 'pt-br' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}

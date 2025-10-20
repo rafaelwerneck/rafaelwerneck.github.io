@@ -9,6 +9,7 @@ venue: 'SPE Europe Energy Conference and Exhibition'
 doi: 'https://doi.org/10.2118/220059-MS'
 paperurl: '/files/werneck2024watch.pdf'
 bibtexurl: '/files/werneck2024watch.bib'
+slidesurl: '/files/werneck2024watch-slides.pdf'
 citation: 'R. Werneck, L. A. Lusquino Filho, A. Lustosa, A. Loomba, M. M. Gonçalves, A. Esmin, S. Salavati, E. Morais, P. Ribeiro Mendes Junior, M. Zampieri, M. Amaral, O. C. Linares, M. Castro, R. Moura, D. J. Schiozer, A. Mello Ferreira, A. Davolio, and A. Rocha. Watch the reservoir! Improving short-term production forecast through transformers. volume SPE Europe Energy Conference and Exhibition of SPE Europec featured at EAGE Conference and Exhibition, page D031S016R002, 06 2024.'
 ---
 

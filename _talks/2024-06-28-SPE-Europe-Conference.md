@@ -8,7 +8,7 @@ date: 2024-06-28
 location: "Turin, Italy"
 ---
 
-On June 2024, I have presented my conference paper [Watch the Reservoir! Improving Short-Term Production Forecast Through Transformers](/publication/2024-06-01-Watch-the-reservoir-improving-short-term-production-forecast-through-transformers "Conference Paper") during the SPE Europe Energy Conference and Exhibition in Turin, Italy.
+On June 2024, I have presented my conference paper [Watch the Reservoir! Improving Short-Term Production Forecast Through Transformers](/publication/2024-06-01-Watch-the-reservoir-improving-short-term-production-forecast-through-transformers "Conference Paper") during the SPE Europe Energy Conference and Exhibition in Turin, Italy. This paper was allocated into the Machine Learning, AI and Digitalisation I section.
 
 The presentation can be found [here](/files/werneck2024watch-slides.pdf).
 

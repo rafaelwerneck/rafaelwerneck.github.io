@@ -3,6 +3,7 @@ title: 'Olá Mundo!'
 date: 2025-10-20
 permalink: /posts/pt-br/2025/10/hello-world/
 language: pt-br
+comments: true
 tags:
   - hello world
   - liquid

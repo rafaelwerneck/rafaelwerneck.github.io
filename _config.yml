@@ -97,15 +97,28 @@ future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : true      #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  # provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  # disqus:
+  #   shortname            :
+  # discourse:
+  #   server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  # facebook:
+  #   appid                :
+  #   num_posts            : # 5 (default)
+  #   colorscheme          : # "light" (default), "dark"
+  provider: "custom"
+  giscus:
+    repo: "rafaelwerneck/rafaelwerneck.github.io"  # Your repository name
+    repo_id: "R_kgDOP7nfyg"                     # Your repository ID
+    category: "Announcements"            # The discussion category
+    category_id: "DIC_kwDOP7nfys4Cw6GR"              # The category ID
+    mapping: "pathname"
+    strict: true
+    reactions_enabled: '1'
+    input_position: "top"
+    theme: "dark"
+    language: "en"
+    loading: "lazy"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"

@@ -3,6 +3,7 @@ title: 'Hello World'
 date: 2025-10-20
 permalink: /posts/en/2025/10/hello-world/
 language: en
+comments: true
 tags:
   - hello world
   - liquid

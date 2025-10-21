@@ -3,6 +3,7 @@ title: 'Nostalgiando and String Comparison'
 date: 2025-10-21
 permalink: /posts/en/2025/10/nostalgiando-string-comparison/
 language: en
+comments: true
 tags:
   - string comparison
   - Nostalgiando

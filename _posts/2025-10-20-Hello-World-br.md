@@ -1,11 +1,11 @@
 ---
 title: 'Olá Mundo!'
 date: 2025-10-20
-permalink: /posts/pt-br/2025/10/olá-mundo/
+permalink: /posts/pt-br/2025/10/hello-world/
 language: pt-br
 tags:
-  - olamundo
-  - introdução
+  - hello world
+  - liquid
   - pt-br
 ---
 

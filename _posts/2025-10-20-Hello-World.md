@@ -4,8 +4,8 @@ date: 2025-10-20
 permalink: /posts/en/2025/10/hello-world/
 language: en
 tags:
-  - helloworld
-  - introduction
+  - hello world
+  - liquid
   - en
 ---
 
@@ -15,13 +15,13 @@ Nothing could be fairer than starting a computer science blog with "Hello World,
 
 This blog will not be updated frequently, I don't even like to write that much, but it will serve as a support for any extra project I work throughout my life.
 
-I say that, but I only have one idea of what to add in the blog after this post.
+I say that, but I only have one idea of what to add to the blog after this post.
 
 Now the question is whether to create two identical posts, one in English and one in Brazilian Portuguese, or to place one text directly below the other. Or a third option, which would be finding some way for the blog to choose which text to display to the user. This last one depends on an internet search to see if it's possible.
 
 ----
 
-I hadn't even finished uploading the text and already fixed the problem that I created for myself.
+I hadn't even finished uploading the text, and I had already fixed the problem that I created for myself.
 
 I'll be doing double posts, one in each language, and only showing them in the correct language page.
 
@@ -43,7 +43,7 @@ tags:
 ---
 ```
 
-Then, on the page resposible for compiling the posts, I filtered and selected only the posts matching that specific language:
+Then, on the page responsible for compiling the posts, I filtered and selected only the posts matching that specific language:
 
 {% raw %}
 ```liquid
@@ -61,6 +61,6 @@ Then, on the page resposible for compiling the posts, I filtered and selected on
 ```
 {% endraw %}
 
-Finally, I create a new page to compile the post from the other language, and on each of these pages, I included a link to the corresponding page in the other language, just in case the user wants to switch.
+Finally, I created a new page to compile the post from the other language. On each of these pages, I included a link to the corresponding page in the other language, just in case the user wants to switch.
 
-I was easier than I imagined! Now the trouble will be writing two posts every time.
+It was easier than I imagined! Now the trouble will be writing two posts every time.
